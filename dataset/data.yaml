@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 30
+names: ['EM', 'IC', 'LED', 'battery', 'button', 'buzzer', 'capacitor', 'clock', 'component text', 'connector', 'diode', 'display', 'electrolytic capacitor', 'emi filter', 'ferrite bead', 'fuse', 'heatsink', 'inductor', 'jumper', 'pads', 'pins', 'potentiometer', 'relay', 'resistor', 'switch', 'test point', 'transducers', 'transformer', 'transistor', 'unknown']
+
+roboflow:
+  workspace: pcb-component-detection
+  project: internship-2-jsdza
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pcb-component-detection/internship-2-jsdza/dataset/2
